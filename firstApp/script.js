@@ -1,99 +1,26 @@
 'use strict';
 
-// const hamburger = true;
-// const fries = true;
+let num = 80;
 
-// if (hamburger && fries) {
-//    console.log('Я сыт!');
-// }
-
-////////////////////////////////////////////////////
-
-// const hamburger = 3;
-// const fries = 1;
-// const cola = 1;
-
-// console.log(hamburger === 3 && cola && fries);
-
-// console.log(1 && 0);
-// console.log(1 && 5);
-// console.log(null && 5);
-// console.log(0 && 'test');
-
-// if (hamburger === 3 && cola === 1 && fries) {
-//    console.log('Все сыты!');
-// } else {
-//    console.log('Мы уходим!');
-// }
-
-const hamburger = 3;
-const fries = 3;
-const cola = 0;
-const nuggets = 2;
-
-if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
-   console.log('Все довольны!');
-} else {
-   console.log('Мы уходим!');
+while (num <= 88) {
+    console.log(num);
+    num++;
 }
+////////////////////////////////////////
+let numDo = 80;
 
-console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets);
-
-let maxReport, timReport, sashaReport, nickReport = 'done';
-
-console.log(maxReport || timReport || sashaReport || nickReport);
-
-//Задачки 
-
-console.log( NaN || 2 || undefined );
-
-
-console.log( NaN && 2 && undefined );
-
-
-console.log( 1 && 2 && 3 );
-
-
-console.log( !1 && 2 || !3 );
-
-
-console.log( 25 || null && !3 );
-
-
-console.log( NaN || null || !3 || undefined || 5);
-
-
-console.log( NaN || null && !3 && undefined || 5);
-
-
-console.log( 5 === 5 && 3 > 1 || 5);
-
-const hamburger = 3;
-const fries = 3;
-const cola = 0;
-const nuggets = 2;
-
-
-if (hamburger === 3 && cola || fries === 3 && nuggets) {
-   console.log('Done!')
+do {
+    console.log(numDo);
+    numDo++;
 }
+while (numDo < 88);
+////////////////////////////////////////
+let numFor = 88
 
-let hamburger;
-const fries = NaN;
-const cola = 0;
-const nuggets = 2;
-
-
-if (hamburger || cola || fries === 3 || nuggets) {
-   console.log('Done!')
-}
-
-let hamburger;
-const fries = NaN;
-const cola = 0;
-const nuggets = 2;
-
-
-if (hamburger && cola || fries === 3 && nuggets) {
-   console.log('Done!')
+for (let i = 1; i < 10; i++) {
+    if ( i === 6) {
+        // break;
+        continue;
+    }
+    console.log(i);
 }
